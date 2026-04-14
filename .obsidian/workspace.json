@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "35b9ca63513a7d66",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d3aed2ab8f759aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb952f35d359a6c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/storefront api docs/VMI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VMI"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b87443b2d7b85e26",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4d2932f3f23ddcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f0a2736702e8b92",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5575e1a714b8a216",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4d94f2c50f09c716",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "86c553a0dbf1546e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d588d2be5214503",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be03c94d9cf1d51b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "storefront api docs/Payment.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Payment"
+            }
+          },
+          {
+            "id": "27c6c06963d1a6ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "storefront api docs/Payment.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Payment"
+            }
+          },
+          {
+            "id": "8659eafc4a06be7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "807ed8191fac2134",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "cb1f19f4db7ca694",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "storefront api docs/Payment.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Payment"
+            }
+          },
+          {
+            "id": "e9a1056079316712",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "eb952f35d359a6c8",
+  "lastOpenFiles": [
+    "table of contents.base",
+    "docs/storefront api docs/table of contents.base",
+    "Untitled.md",
+    "index.md",
+    "docs/storefront api docs/index.md",
+    "Untitled.canvas",
+    "docs/storefront api docs/Integration & Export.md",
+    "docs/storefront api docs/Catalogue & Discovery.md",
+    "docs/storefront api docs/Commerce & Checkout.md",
+    "docs/storefront api docs/Configuration & Locale.md",
+    "docs/storefront api docs/Identity & Account.md",
+    "docs/storefront api docs/Order.md",
+    "docs/storefront api docs/Payment.md",
+    "docs/storefront api docs/Pricing & Inventory.md",
+    "docs/storefront api docs/RELATIONS.md",
+    "docs/storefront api docs/Search.md",
+    "docs/storefront api docs/VMI.md",
+    "2026-04-14.md",
+    "docs/storefront api docs",
+    "storefront api docs/Payment.md",
+    "docs",
+    "storefront api docs/index.md",
+    "Welcome.md",
+    "storefront api docs/VMI.md",
+    "storefront api docs/Search.md",
+    "storefront api docs/RELATIONS.md",
+    "storefront api docs/Pricing & Inventory.md",
+    "storefront api docs/Order.md",
+    "storefront api docs/Integration & Export.md",
+    "storefront api docs/Identity & Account.md",
+    "storefront api docs",
+    "storefront-v1-api-docs-v3"
+  ]
+}

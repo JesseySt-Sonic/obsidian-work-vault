@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.basename != "table of contents"
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("storefront-api")
+    order:
+      - file.name
+      - file.tags

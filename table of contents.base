@@ -1,0 +1,9 @@
+filters:
+  and:
+    - file.basename != "table of contents"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.tags
