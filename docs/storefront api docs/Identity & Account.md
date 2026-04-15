@@ -2,7 +2,6 @@
 tags:
   - storefront-api
 ---
-
 # Identity & Account
 
 Manages user identity, session lifecycle, billing/shipping addresses, and saved payment profiles. This is the foundation layer — all authenticated requests depend on the `access_token` produced here.

@@ -2,7 +2,6 @@
 tags:
   - storefront-api
 ---
-
 # Order
 
 Order history, submission, returns, approvals, quotes, job quotes, and invoices. Follows the cart → approval → order lifecycle with `{cartId}` as the shared key into Commerce.

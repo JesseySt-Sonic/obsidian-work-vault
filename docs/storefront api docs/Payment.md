@@ -2,7 +2,6 @@
 tags:
   - storefront-api
 ---
-
 # Payment
 
 Payment gateway configuration, authentication flows, and tokenisation. Adyen, Paymetric, Spreedly, and TokenEx are interchangeable provider adapters behind the `paymentauthentication` facade.

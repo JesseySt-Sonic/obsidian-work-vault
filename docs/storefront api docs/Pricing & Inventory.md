@@ -2,7 +2,6 @@
 tags:
   - storefront-api
 ---
-
 # Pricing & Inventory
 
 Stateless POST-only adapters that translate storefront requests into real-time ERP lookups for prices, stock levels, and cart-level inventory validation.

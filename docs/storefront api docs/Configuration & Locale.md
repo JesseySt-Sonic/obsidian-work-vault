@@ -2,7 +2,6 @@
 tags:
   - storefront-api
 ---
-
 # Configuration & Locale
 
 Site-wide settings, locale and language data, website metadata, translation dictionaries, and CMS content. Loaded as a bootstrap dependency before any user-facing feature.

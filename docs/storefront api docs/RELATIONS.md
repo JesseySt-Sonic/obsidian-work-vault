@@ -2,7 +2,6 @@
 tags:
   - storefront-api
 ---
-
 # Storefront API V1 — Endpoint Relationships
 
 This document maps how endpoints relate to each other across the API.

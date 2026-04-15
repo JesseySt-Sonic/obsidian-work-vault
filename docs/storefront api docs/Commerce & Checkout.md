@@ -2,7 +2,6 @@
 tags:
   - storefront-api
 ---
-
 # Commerce & Checkout
 
 Shopping cart lifecycle, promotions, wishlists, and requisitions. The `{cartId}` and `{wishListId}` path parameters are the key pivots linking this service to Orders and Identity.

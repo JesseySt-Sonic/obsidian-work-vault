@@ -2,7 +2,6 @@
 tags:
   - storefront-api
 ---
-
 # Search
 
 Storefront search and autocomplete. The Algolia export endpoints are read projections of catalogue data intended for background indexing jobs, not direct UI calls.

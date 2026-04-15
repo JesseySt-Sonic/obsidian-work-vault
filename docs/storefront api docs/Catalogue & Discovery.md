@@ -2,7 +2,6 @@
 tags:
   - storefront-api
 ---
-
 # Catalogue & Discovery
 
 Owns the product entity, category tree, and brand navigation. Price and availability endpoints are thin proxies delegating to the Pricing & Inventory service at runtime.
