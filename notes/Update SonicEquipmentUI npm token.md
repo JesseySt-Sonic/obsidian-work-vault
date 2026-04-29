@@ -1,5 +1,8 @@
 ---
-tags: [azure-devops, npm, deployment]
+tags:
+  - azure-devops
+  - npm
+  - deployment
 ---
 
 # Update SonicEquipmentUI npm publish token

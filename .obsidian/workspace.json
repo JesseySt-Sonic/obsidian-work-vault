@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Update SonicEquipmentUI npm token.md",
+                "file": "notes/Email assistant/2026-04-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Update SonicEquipmentUI npm token"
+              "title": "2026-04-29"
             }
           }
         ]
@@ -196,7 +196,21 @@
   },
   "active": "eb952f35d359a6c8",
   "lastOpenFiles": [
-    "docs/cache invalidation service/index.md",
+    "notes/Email assistant/2026-04-28.md",
+    "notes/Email assistant/coworkers/Kishana@sonic-equipment.com.md",
+    "notes/Email assistant/2026-04-29.md",
+    "notes/Email assistant/context.md",
+    "notes/Email assistant/follow-ups.md",
+    "notes/Email assistant/coworkers",
+    "2026-04-28.md",
+    "CLAUDE.md",
+    "docs/storefront api docs/Catalogue & Discovery.md",
+    "notes/Email assistant",
+    "docs/Cashe invalidation service.md",
+    "docs/sonic-equipment-web.md",
+    "index.md",
+    "table of contents.base",
+    "docs/storefront api docs/Storefront api.md",
     "notes/Update SonicEquipmentUI npm token.md",
     "notes",
     "refactor/Searchfield.md",
@@ -206,9 +220,7 @@
     "refactor/Sentry Distributed Tracing Refactor Plan.md",
     "refactor/Linting flow refactor.md",
     "refactor",
-    "docs/storefront api docs/Catalogue & Discovery.md",
     "docs/cache invalidation service",
-    "CLAUDE.md",
     "docs/storefront api docs/VMI.md",
     "docs/storefront api docs/table of contents.base",
     "docs/storefront api docs/Search.md",
@@ -217,20 +229,9 @@
     "docs/storefront api docs/Payment.md",
     "docs/storefront api docs/Order.md",
     "docs/storefront api docs/Integration & Export.md",
-    "docs/storefront api docs/index.md",
-    "docs/storefront api docs/Identity & Account.md",
-    "docs/storefront api docs/Configuration & Locale.md",
-    "docs/storefront api docs/Commerce & Checkout.md",
-    "table of contents.base",
-    "Untitled.md",
-    "index.md",
     "Untitled.canvas",
-    "2026-04-14.md",
     "docs/storefront api docs",
-    "storefront api docs/Payment.md",
     "docs",
-    "storefront api docs/index.md",
-    "storefront api docs",
-    "storefront-v1-api-docs-v3"
+    "storefront api docs"
   ]
 }

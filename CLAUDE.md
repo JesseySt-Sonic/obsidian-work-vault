@@ -15,6 +15,7 @@ Work/
 ├── INDEX.md          ← vault home (also symlinked as README.md for GitHub)
 ├── CLAUDE.md         ← this file
 ├── docs/
+│   ├── sonic-equipment-web.md ← Next.js storefront design document (architecture, routes, env vars)
 │   ├── storefront api docs/   ← Storefront API V1 reference docs
 │   │   ├── index.md           ← service map and auth info
 │   │   ├── RELATIONS.md       ← relationships between services
@@ -22,7 +23,11 @@ Work/
 │   └── cache invalidation service/
 │       └── index.md           ← Sonic.ControlPanel.Api, cache flush/invalidation endpoints
 ├── notes/
-│   └── Update SonicEquipmentUI npm token.md   ← steps to rotate the npm publish token in Azure DevOps
+│   ├── Update SonicEquipmentUI npm token.md   ← steps to rotate the npm publish token in Azure DevOps
+│   └── Email Assistant/                        ← email assistant memory + daily digests
+│       ├── context.md                          ← sender rules, folder structure, coworker tracking config
+│       ├── yyyy-mm-dd.md                       ← one digest per run (e.g. 2026-04-28.md)
+│       └── coworkers/                          ← one note per tracked sender
 └── refactor/         ← created as refactor ideas are added
 ```
 
@@ -38,6 +43,7 @@ Work/
 
 ## Key docs
 
-- [Storefront API V1](docs/storefront%20api%20docs/index.md) — host, auth, service map
+- [sonic-equipment-web](docs/sonic-equipment-web.md) — Next.js storefront: architecture, routes, middleware pipeline, env vars
+- [Storefront API V1](Storefront%20api.md) — host, auth, service map
 - [Service Relations](docs/storefront%20api%20docs/RELATIONS.md) — how services relate to each other
-- [Cache Invalidation Service](docs/cache%20invalidation%20service/index.md) — Sonic.ControlPanel.Api, flush/invalidate cache endpoints
+- [Cache Invalidation Service](Cashe%20invalidation%20service.md) — Sonic.ControlPanel.Api, flush/invalidate cache endpoints

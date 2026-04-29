@@ -43,39 +43,39 @@ Owns the product entity, category tree, and brand navigation. Price and availabi
 
 #### Query Parameters
 
-| Name | Type | Required | Description |
-|------|------|----------|-------------|
-| `model.query` | string | ❌ |  |
-| `model.categoryId` | string (uuid) | ❌ |  |
-| `model.brandIds` | string[] | ❌ |  |
-| `model.productLineIds` | string[] | ❌ |  |
-| `model.attributeValueIds` | string[] | ❌ |  |
-| `model.priceFilters` | integer[] | ❌ |  |
-| `model.minimumPrice` | number (double) | ❌ |  |
-| `model.maximumPrice` | number (double) | ❌ |  |
-| `model.sort` | string | ❌ |  |
-| `model.page` | integer (int32) | ❌ |  |
-| `model.pageSize` | integer (int32) | ❌ |  |
-| `model.productIds` | string[] | ❌ |  |
-| `model.names` | string[] | ❌ |  |
-| `model.erpNumbers` | string[] | ❌ |  |
-| `model.extendedNames` | string[] | ❌ |  |
-| `model.replaceProducts` | boolean | ❌ |  |
-| `model.priceParameters` | undefined[] | ❌ |  |
-| `model.expand` | string | ❌ |  |
-| `model.includeSuggestions` | boolean | ❌ |  |
-| `model.searchWithin` | string | ❌ |  |
-| `model.getAllAttributeFacets` | boolean | ❌ |  |
-| `model.filter` | string | ❌ |  |
-| `model.topSellersCategoryIds` | string[] | ❌ |  |
-| `model.topSellersPersonaIds` | string[] | ❌ |  |
-| `model.topSellersMaxResults` | integer (int32) | ❌ |  |
-| `model.applyPersonalization` | boolean | ❌ |  |
-| `model.includeAttributes` | string | ❌ |  |
-| `model.includeAlternateInventory` | boolean | ❌ |  |
-| `model.makeBrandUrls` | boolean | ❌ |  |
-| `model.previouslyPurchasedProducts` | boolean | ❌ |  |
-| `model.stockedItemsOnly` | boolean | ❌ |  |
+| Name                                | Type            | Required | Description |
+| ----------------------------------- | --------------- | -------- | ----------- |
+| `model.query`                       | string          | ❌        |             |
+| `model.categoryId`                  | string (uuid)   | ❌        |             |
+| `model.brandIds`                    | string[]        | ❌        |             |
+| `model.productLineIds`              | string[]        | ❌        |             |
+| `model.attributeValueIds`           | string[]        | ❌        |             |
+| `model.priceFilters`                | integer[]       | ❌        |             |
+| `model.minimumPrice`                | number (double) | ❌        |             |
+| `model.maximumPrice`                | number (double) | ❌        |             |
+| `model.sort`                        | string          | ❌        |             |
+| `model.page`                        | integer (int32) | ❌        |             |
+| `model.pageSize`                    | integer (int32) | ❌        |             |
+| `model.productIds`                  | string[]        | ❌        |             |
+| `model.names`                       | string[]        | ❌        |             |
+| `model.erpNumbers`                  | string[]        | ❌        |             |
+| `model.extendedNames`               | string[]        | ❌        |             |
+| `model.replaceProducts`             | boolean         | ❌        |             |
+| `model.priceParameters`             | undefined[]     | ❌        |             |
+| `model.expand`                      | string          | ❌        |             |
+| `model.includeSuggestions`          | boolean         | ❌        |             |
+| `model.searchWithin`                | string          | ❌        |             |
+| `model.getAllAttributeFacets`       | boolean         | ❌        |             |
+| `model.filter`                      | string          | ❌        |             |
+| `model.topSellersCategoryIds`       | string[]        | ❌        |             |
+| `model.topSellersPersonaIds`        | string[]        | ❌        |             |
+| `model.topSellersMaxResults`        | integer (int32) | ❌        |             |
+| `model.applyPersonalization`        | boolean         | ❌        |             |
+| `model.includeAttributes`           | string          | ❌        |             |
+| `model.includeAlternateInventory`   | boolean         | ❌        |             |
+| `model.makeBrandUrls`               | boolean         | ❌        |             |
+| `model.previouslyPurchasedProducts` | boolean         | ❌        |             |
+| `model.stockedItemsOnly`            | boolean         | ❌        |             |
 
 #### Responses
 
