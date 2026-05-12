@@ -26,7 +26,9 @@ Work/
 │   ├── Update SonicEquipmentUI npm token.md   ← steps to rotate the npm publish token in Azure DevOps
 │   └── Email Assistant/                        ← email assistant memory + daily digests
 │       ├── context.md                          ← sender rules, folder structure, coworker tracking config
+│       ├── follow-ups.md                       ← pending follow-up tracker
 │       ├── yyyy-mm-dd.md                       ← one digest per run (e.g. 2026-04-28.md)
+│       ├── weekly/                             ← weekly digests (one per week, e.g. 2026-W18.md)
 │       └── coworkers/                          ← one note per tracked sender
 └── refactor/         ← created as refactor ideas are added
 ```
@@ -47,3 +49,7 @@ Work/
 - [Storefront API V1](Storefront%20api.md) — host, auth, service map
 - [Service Relations](docs/storefront%20api%20docs/RELATIONS.md) — how services relate to each other
 - [Cache Invalidation Service](Cashe%20invalidation%20service.md) — Sonic.ControlPanel.Api, flush/invalidate cache endpoints
+
+## Refactor plans
+
+- [Spider Pattern CI Check](refactor/Spider%20Pattern%20CI%20Check.md) — GitHub Action to enforce spider module pattern on PRs to develop

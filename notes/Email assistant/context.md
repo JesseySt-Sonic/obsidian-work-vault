@@ -182,5 +182,5 @@ Each run creates a note at `notes/Email Assistant/yyyy-mm-dd.md` with the follow
 - Coworker notes in `coworkers/` are updated each run as new signal is observed.
 - Follow-ups are tracked in `follow-ups.md` and updated each run.
 - Do not hallucinate replies or sent items — only use what is visible in the inbox.
-- Softeria MCP: not yet available. Skip inbox organisation steps until configured.
-- Last updated: 2026-04-28
+- Inbox organisation: use the **ms365 MCP connector** (approved 2026-04-29). Tools: `move-mail-message`, `update-mail-message` (isRead), `list-mail-child-folders`. All folders already exist under Postvak IN. Do NOT skip Step 7 — the ms365 connector replaces Softeria for this purpose.
+- Last updated: 2026-04-30

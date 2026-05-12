@@ -1,6 +1,7 @@
-# Kishana van Beers — Kishana@sonic-equipment.com
+# Kishana@sonic-equipment.com
 
-- **Signal level:** neutral (first contact, direct question to Jessey — likely important)
-- **Personal email also used:** hoogeveen.kishana@gmail.com
-- **Last seen:** 2026-04-29
-- **Notes:** Sent a direct question to Jessey (via personal Gmail) about updating tone of voice on automated invoice/reminder emails and PDFs. CC'd vincent@sonic-equipment.com on the message. Appears to be working on copy/tone-of-voice for Sonic Equipment communications. First appearance — promote to important if more direct questions follow.
+- **Name:** Kishana van Beers
+- **Signal level:** neutral
+- **Reply behaviour:** Jessey replied to her on Apr 29 with info about the shop admin email template editor.
+- **Last seen:** 2026-05-07 (CC'd on Vincent's "Sonic tone of voice" thread and Theo's reply)
+- **Notes:** Raised a tone-of-voice concern about invoice/reminder email templates. Also contacted Jessey from personal Gmail (hoogeveen.kishana@gmail.com) with a forwarded invoice example. Theo confirmed on 2026-05-07 that translations were updated to match Zeplin and that the marketing team will get content/label-translation control in the near future — that addresses the original ask. Thread effectively closed for now.
