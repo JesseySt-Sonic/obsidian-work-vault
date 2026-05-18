@@ -16,6 +16,7 @@ Work/
 ├── CLAUDE.md         ← this file
 ├── docs/
 │   ├── sonic-equipment-web.md ← Next.js storefront design document (architecture, routes, env vars)
+│   ├── sentry-noise-inventory.md ← CS-facing cheat sheet for known browser/extension issues (paste-ready replies; tech detail in SD-623)
 │   ├── storefront api docs/   ← Storefront API V1 reference docs
 │   │   ├── index.md           ← service map and auth info
 │   │   ├── RELATIONS.md       ← relationships between services
@@ -46,6 +47,7 @@ Work/
 ## Key docs
 
 - [sonic-equipment-web](docs/sonic-equipment-web.md) — Next.js storefront: architecture, routes, middleware pipeline, env vars
+- [Customer Support — Known Browser Issues](Customer%20Support%20—%20Known%20Browser%20Issues.md) — CS-facing cheat sheet (4 cases, paste-ready replies). Tech detail lives in [SD-623](https://sonic-equipment.atlassian.net/browse/SD-623).
 - [Storefront API V1](Storefront%20api.md) — host, auth, service map
 - [Service Relations](docs/storefront%20api%20docs/RELATIONS.md) — how services relate to each other
 - [Cache Invalidation Service](Cashe%20invalidation%20service.md) — Sonic.ControlPanel.Api, flush/invalidate cache endpoints
@@ -53,3 +55,4 @@ Work/
 ## Refactor plans
 
 - [Spider Pattern CI Check](refactor/Spider%20Pattern%20CI%20Check.md) — GitHub Action to enforce spider module pattern on PRs to develop
+- [UI lib data fetching separation](refactor/UI%20lib%20data%20fetching%20separation.md) — move data fetching/React Query to the consuming app; make `request.ts` use an injectable fetch adapter so Next.js cache logic isn't scattered in service files

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactor/Debug screen.md",
+                "file": "notes/side-projects/Godot Co-op Mode plugin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Debug screen"
+              "title": "Godot Co-op Mode plugin"
             }
           }
         ]
@@ -196,34 +196,35 @@
   },
   "active": "1876afd2e7f10dd9",
   "lastOpenFiles": [
+    "notes/side-projects/Build your own Git in Rust.md",
+    "notes/side-projects/Godot Co-op Mode plugin.md",
+    "notes/side-projects/Build your own CI-CD.md",
+    "notes/Email assistant/coworkers/vincent@sonic-equipment.com.md",
+    "notes/side-projects",
+    "refactor/UI lib data fetching separation.md",
+    "notes/Email assistant/2026-05-18.md",
+    "notes/Email assistant/coworkers/Kishana@sonic-equipment.com.md",
+    "notes/Email assistant/coworkers/Gerben@sonic-equipment.com.md",
+    "notes/Email assistant/coworkers/fm@sonic-equipment.com.md",
+    "notes/Email assistant/weekly/2026-W20.md",
+    "notes/Email assistant/coworkers/diego@sonic-equipment.com.md",
+    "notes/Email assistant/coworkers/Ches@sonic-equipment.com.md",
+    "docs/Customer Support — Known Browser Issues.md",
+    "notes/Email assistant/2026-05-15.md",
+    "notes/Update SonicEquipmentUI npm token.md",
+    "refactor/Debug screen.md",
+    "notes/Email assistant/2026-05-13.md",
     "refactor/Spider Pattern CI Check.md",
     "refactor/Storage hook refactor plan.md",
     "refactor/Implemented/Linting flow refactor.md",
     "refactor/Implemented/Provider tree refactor plan.md",
     "refactor/Searchfield.md",
     "refactor/Sentry Distributed Tracing Refactor Plan.md",
-    "refactor/Debug screen.md",
     "refactor/Implemented",
     "notes/Email assistant/2026-05-08.md",
     "docs/storefront api docs/Identity & Account.md",
     "refactor/Cache invalidation ui.md",
-    "notes/Untitled.md",
-    "notes/Email assistant/weekly/2026-W18.md",
-    "notes/Email assistant/2026-05-07.md",
-    "notes/Email assistant/coworkers/Gerben@sonic-equipment.com.md",
-    "notes/Email assistant/2026-05-06.md",
-    "notes/Email assistant/follow-ups.md",
-    "notes/Email assistant/2026-05-05.md",
-    "notes/Email assistant/coworkers/Ches@sonic-equipment.com.md",
     "notes/Email assistant/weekly",
-    "notes/Email assistant/2026-05-04.md",
-    "notes/Email assistant/2026-05-01.md",
-    "notes/Email assistant/2026-04-30.md",
-    "notes/Email assistant/2026-04-29.md",
-    "notes/Email assistant/2026-04-28.md",
-    "notes/Email assistant/coworkers/vincent@sonic-equipment.com.md",
-    "notes/Email assistant/coworkers/Kishana@sonic-equipment.com.md",
-    "notes/Email assistant/context.md",
     "notes/Email assistant/coworkers",
     "notes/Email assistant",
     "table of contents.base",
@@ -231,7 +232,6 @@
     "refactor",
     "docs/cache invalidation service",
     "docs/storefront api docs/table of contents.base",
-    "Untitled.canvas",
-    "docs/storefront api docs"
+    "Untitled.canvas"
   ]
 }
