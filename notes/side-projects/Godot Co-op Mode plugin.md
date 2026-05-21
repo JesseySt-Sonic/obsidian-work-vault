@@ -61,7 +61,39 @@ Each stage is independently shippable and useful. The CRDT cliff only appears at
 |Pairing|Hash `project.godot` (or a stable subset) → room ID. Auto-join, zero config.|
 |Auth|None for MVP; layer on later if team scoping is needed.|
 |State model|Ephemeral pub/sub for stages 1–4. Persistence only for activity log.|
+### Branch handling
 
+Presence is branch-agnostic. Ghost cursors are not — they need a shared reference frame, which branches break. Options, roughly from heavy to light:
+
+| Approach              | How                                                                                                        | Trade-off                                                                                                          |
+| --------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Stash-and-switch**  | Stash local changes, checkout their branch, render ghost                                                   | Faithful but destructive; `.import` cache and untracked files make this brittle                                    |
+| **Worktree peek**     | `git worktree add` their branch into `.coop/<user>-<branch>/`, parse `.tscn` from there as reference frame | Non-destructive, clean separation of "my state" vs "ghost reference frame". Costs disk + a background scene parser |
+| **Lossy degradation** | Render ghost against *your* scene; show placeholder when node doesn't exist                                | Cheap, makes divergence visible rather than hiding it. Ghost can mislead when scenes have diverged                 |
+
+#### Room scoping (orthogonal axis)
+
+- **Project-scoped rooms** — one room per repo, all branches share it. Max visibility, ghosts must degrade.
+- **Branch-scoped rooms** — one room per branch. Cleaner ghost semantics, less visibility.
+- **Layered** — project-level presence, branch-level ghosts. Maps to how teams think: *"who's around"* is project-level, *"what are they touching on the canvas"* is branch-level.
+
+#### Recommendation
+
+- **v1 ghosts:** layered rooms + lossy degradation. Buildable without git plumbing — just include branch name in the presence broadcast, filter client-side.
+- **v2:** add worktree peek as an explicit "Jump to X's branch (read-only)" power-user action for code review / pair debugging.
+- **Skip stash-and-switch.** Mutating the user's working tree to enable a UI feature erodes trust the first time it goes wrong.
+
+#### Deeper principle
+
+A "live session" doesn't have to mean "same state." Each feature has its own consistency requirements:
+
+| Feature | Shared context needed |
+|---|---|
+| Presence | None |
+| Ghost cursors | Shared scene files |
+| Live property editing | Shared files + mutation channel |
+
+Be explicit about these per-feature rather than treating "in the same session" as a binary. Discord has presence across totally different applications and it's still useful — the same logic applies here.
 ## Naming
 
 `GodotTogether` is taken (existing experimental plugin, not production-ready). **Co-op Mode** fits the audience — activity feed = killfeed, ghost cursors = spectators, the framing writes itself.
@@ -77,4 +109,3 @@ Each stage is independently shippable and useful. The CRDT cliff only appears at
 
 - Should ghost cursors include voice/text chat, or stay out of comms entirely and let Discord do its job?
 - Is there value in a "spectator mode" where someone joins read-only without opening the project locally? (Useful for code review / mentoring.)
-- How does this interact with `git` branches? If Jessey is on `feature/inventory` and I'm on `main`, do we see each other's presence or not? (Probably yes for presence, no for ghost cursors — different scene state.)
