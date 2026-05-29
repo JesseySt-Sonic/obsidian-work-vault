@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactor/UI lib data fetching separation.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UI lib data fetching separation"
+              "title": "README"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "storefront api docs/Payment.md",
+                "file": "notes/Email assistant/coworkers/Danielle@sonic-equipment.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Payment"
+              "title": "Outgoing links from Danielle@sonic-equipment.com"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "storefront api docs/Payment.md",
+                "file": "notes/Email assistant/coworkers/Danielle@sonic-equipment.com.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Payment"
+              "title": "Outline of Danielle@sonic-equipment.com"
             }
           },
           {
@@ -194,43 +194,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1876afd2e7f10dd9",
+  "active": "8659eafc4a06be7e",
   "lastOpenFiles": [
+    "table of contents.base",
+    "README.md",
+    "index.md",
+    "docs/cache invalidation service",
+    "notes/Email assistant/coworkers/Danielle@sonic-equipment.com.md",
+    "notes/Email assistant/2026-05-29.md",
+    "notes/Email assistant/coworkers/HR@sonic-equipment.com.md",
+    "notes/Email assistant/2026-05-28.md",
+    "notes/Email assistant/2026-05-27.md",
+    "notes/Email assistant/coworkers/Ches@sonic-equipment.com.md",
+    "notes/Email assistant/coworkers/diego@sonic-equipment.com.md",
+    "notes/Email assistant/coworkers/fm@sonic-equipment.com.md",
+    "notes/Email assistant/coworkers/Gerben@sonic-equipment.com.md",
+    "notes/Email assistant/coworkers/Kishana@sonic-equipment.com.md",
+    "notes/Email assistant/coworkers/vincent@sonic-equipment.com.md",
+    "docs/Customer Support — Known Browser Issues.md",
+    "notes/Email assistant/2026-05-26.md",
+    "notes/Email assistant/weekly/2026-W21.md",
+    "notes/Email assistant/2026-05-23.md",
+    "docs/sonic-equipment-web.md",
+    "notes/Email assistant/2026-05-22.md",
+    "refactor/Remove Pages from UI Lib.md",
+    "refactor/Sentry Distributed Tracing Refactor Plan.md",
+    "refactor/UI lib data fetching separation.md",
     "refactor/Implemented/Provider tree refactor plan.md",
     "refactor/Implemented/Linting flow refactor.md",
     "refactor/Checkout shipping refactor.md",
-    "refactor/Cache invalidation ui.md",
-    "refactor/Cross repo cypress gate.md",
-    "refactor/Debug screen.md",
-    "refactor/Sentry Distributed Tracing Refactor Plan.md",
-    "refactor/Searchfield.md",
-    "refactor/Spider Pattern CI Check.md",
-    "refactor/Storage hook refactor plan.md",
-    "refactor/UI lib data fetching separation.md",
-    "notes/side-projects/Build your own Git in Rust.md",
-    "notes/side-projects/Build your own CI-CD.md",
-    "refactor/Cross_Repo_Cypress_Gate.md",
-    "notes/Email assistant/2026-05-21.md",
-    "notes/side-projects/Godot Co-op Mode plugin.md",
-    "notes/Email assistant/coworkers/vincent@sonic-equipment.com.md",
     "notes/side-projects",
-    "notes/Email assistant/2026-05-18.md",
-    "notes/Email assistant/coworkers/Kishana@sonic-equipment.com.md",
-    "notes/Email assistant/coworkers/Gerben@sonic-equipment.com.md",
-    "notes/Email assistant/coworkers/fm@sonic-equipment.com.md",
-    "notes/Email assistant/weekly/2026-W20.md",
-    "notes/Email assistant/coworkers/diego@sonic-equipment.com.md",
-    "notes/Email assistant/coworkers/Ches@sonic-equipment.com.md",
-    "docs/Customer Support — Known Browser Issues.md",
-    "notes/Email assistant/2026-05-15.md",
     "refactor/Implemented",
     "notes/Email assistant/weekly",
     "notes/Email assistant/coworkers",
     "notes/Email assistant",
-    "table of contents.base",
     "notes",
     "refactor",
-    "docs/cache invalidation service",
     "docs/storefront api docs/table of contents.base",
     "Untitled.canvas"
   ]

@@ -56,3 +56,4 @@ Work/
 
 - [Spider Pattern CI Check](refactor/Spider%20Pattern%20CI%20Check.md) — GitHub Action to enforce spider module pattern on PRs to develop
 - [UI lib data fetching separation](refactor/UI%20lib%20data%20fetching%20separation.md) — move data fetching/React Query to the consuming app; make `request.ts` use an injectable fetch adapter so Next.js cache logic isn't scattered in service files
+- [Remove Pages from UI Lib](refactor/Remove%20Pages%20from%20UI%20Lib.md) — remove all `src/pages/` exports (page assemblies + connected components); relocate pure UI to new `src/checkout/`, `src/my-sonic/`, `src/product/` dirs; major version bump
